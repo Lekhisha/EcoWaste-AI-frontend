@@ -166,6 +166,7 @@ const Part2 = () => {
       // 🌟 FIX: Fetch using the DEPLOYED BACKEND URL
       const res = await fetch(BACKEND_URL, { 
         method: "POST",
+        mode:'cors',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
             imageData: imageUrl, 
