@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // ➡️ Place the 'jsx' and 'types' settings here
+    "jsx": "react-jsx",
+    "types": ["react","react-dom"]
+    
+    // Add other necessary options here if they were missing or elsewhere
+    // "target": "es2020",
+    // "module": "esnext",
+    // "moduleResolution": "node",
+    // "strict": true,
+    // "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  // ⚠️ Remove the incorrect top-level entries
+  // "jsx": "react-jsx", 
+  // "types": ["react", "react-dom"]
+}
