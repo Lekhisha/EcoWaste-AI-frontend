@@ -100,7 +100,7 @@ const Part2: React.FC = () => {
 
     try {
       const res = await fetch(
-        "https://backend-blush-three-91.vercel.app/api/classify", // ✅ deployed backend URL
+        "https://eco-waste-ai-backend.vercel.app/api/classify", // ✅ deployed backend URL
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
