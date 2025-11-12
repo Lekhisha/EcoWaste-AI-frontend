@@ -38,7 +38,7 @@ const Process = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center">
               <div className="order-2 sm:order-1">
                 <div className="text-2xl font-semibold text-cyan-950">
-                  1. Capture or Upload Your Waste
+                  1. Scan or Upload Your Waste
                 </div>
                 <p className="text-cyan-950 font-semibold">
                   Effortlessly capture your waste item using your smartphone

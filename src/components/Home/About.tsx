@@ -29,14 +29,12 @@ const About = () => {
               </div>
               <div>
                 <div className="text-3xl font-semibold text-cyan-950 ">
-                  Smart Scanning
+                  Scan or Upload Image
                 </div>
                 <p className="py-4 font-semibold text-cyan-950">
-                  Our innovative smart scanning feature uses your device's
-                  camera to identify waste items quickly and accurately. Simply
-                  point, scan, and let the app do the rest. It's designed for
-                  effortless use, ensuring you get the right disposal guidance
-                  in seconds.
+                  Our website is build to identify waste images and define their type of waste . Users just has to upload
+                  waste image item or take image from camera on website which will classify the image and give instant results and works
+                  both on desktop and mobile devices.
                 </p>
               </div>
             </div>
