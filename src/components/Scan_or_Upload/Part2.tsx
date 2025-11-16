@@ -203,7 +203,7 @@ const Part2: React.FC = () => {
 
       try {
         const res = await fetch(
-          "https://eco-waste-ai-backend.vercel.app/api/classify",
+          "https://ecowaste-ai-backend.onrender.com/api/classify",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
